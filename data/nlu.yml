@@ -1,0 +1,31 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+- intent: look
+  examples: |
+    - look at [room](object)
+    - i want to look at the [window](object)
+    - check the [box](object)
+    - peek at [key](object)
+    - watch the [poster](object)
+- intent: pickup
+  examples: |
+    - picks up the [room](object)
+    - take the [window](object)
+    - grab the [box](object)
+    - seize the [key](object)
+- intent: use
+  examples: |
+    - combine the [key](object) with the [box](object)
+    - use the [window](object) with the [key](object)
+    - use the [key](object) on the [box](object)
+    - uses the [poster](object) on the [box](object)
+    - used the [key](object) on the [window](object)
+    - unite the [poster](object) with the [box](object)
